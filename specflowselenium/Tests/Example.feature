@@ -11,4 +11,5 @@ Scenario: FinishMe
 	And I click on the 'More information...'
 	Then a link with text 'RFC 2606' must be present
 	And a link with text 'RFC 6761' must be present
+	And I click on the 'Root Zone Registry'
 	And the 'Domain Names' box must contain 'Root Zone Management' at index '2'
